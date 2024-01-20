@@ -41,7 +41,7 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
-const buttons = document.querySelectorAll(".buttons");
+const buttons = document.querySelectorAll("button.buttons");
 const div = document.querySelector("#result");
 const winner = document.querySelector("#winner");
 let scoreboard = document.querySelector("#scoreboard");

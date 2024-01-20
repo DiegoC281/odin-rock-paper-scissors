@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    font-size: 24px;
+}
+
+* {
+    margin: 0;
+}
+
+body>div {
+    height: 100%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+div.buttons {
+    display: flex;
+    gap: 1em;
+    padding: 0 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+div>.buttons {
+    width: calc(100% - 2em);
+}
+
+button.buttons {
+    font-size: 24px;
+    margin: 0;
+}
